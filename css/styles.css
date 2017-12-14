@@ -25,6 +25,7 @@ h1 {
 h2 {
   font-size: 2em;
   font-family: 'OpenSans', sans-serif;
+  text-align: center;
 }
 
 h3 {
@@ -106,7 +107,7 @@ a:hover {
   justify-content: space-around;
   margin: 0 auto;
   padding: 15px 15px;
-  height: 75px;
+  max-height: 75px;
   width: 100%;
 }
 
@@ -192,9 +193,79 @@ a:hover {
     padding: 25px 0;
   }
 
+  .wrap {
+    min-height: calc(100vh-75px);
+  }
 
 }
 
 @media (min-width: 1024px) {
+  .nav li {
+    display: inline;
+    margin: 0 auto;
+    padding: 0 10px;
+    background-color: #f2f2f2;
+  }
 
+  .profile-img {
+    float: right;
+    padding: 0 15px;
+  }
+
+  .intro-paragraph {
+    margin: 0 10px;
+  }
+
+  .intro {
+    padding: 15px 10px 200px;
+  }
+
+  .portfolio-photo {
+    display: inline;
+  }
+
+  .portfolio0 {
+    float: left;
+    max-width: 30%;
+    padding: 0 auto;
+  }
+
+  .portfolio1 {
+    float: right;
+    max-width: 30%;
+    padding: 0 auto;
+  }
+
+  .portfolio2 {
+    float: left;
+    max-width: 30%;
+    padding: 0 auto;
+  }
+
+  .portfolio3 {
+    float: right;
+    max-width: 30%;
+    padding: 0 auto;
+  }
+
+  .portfolio4 {
+    float: left;
+    max-width: 30%;
+    padding: 0 auto;
+  }
+
+  .portfolio5 {
+    float: right;
+    max-width: 30%;
+    padding: 0 auto;
+  }
+
+  .portfolio-title {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .wrap {
+    min-height: calc(100vh-75px);
+  }
 }
