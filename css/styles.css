@@ -19,6 +19,7 @@ body {
 h1 {
   font-size: 3.5em;
   font-family: 'Heebo', sans-serif;
+  margin: 0;
 }
 
 h2 {
@@ -34,6 +35,7 @@ h3 {
 p {
   font-size: 1.8em;
   font-family: 'OpenSans', sans-serif;
+  margin: 0 auto;
 }
 
 /*Psuedo Classes*/
@@ -97,17 +99,15 @@ a:hover {
 .name {
   font-size: 1em;
   font-family: 'Heebo', sans-serif;
-  display: inline-block;
-  margin: 0;
 }
 
 .main-footer {
-  background: #f2f2f2;
-  display: inline;
+  background-color: #f2f2f2;
   justify-content: space-around;
-  margin: 25px;
-  padding: 15px 0;
+  margin: 0 auto;
+  padding: 15px 15px;
   height: 75px;
+  width: 100%;
 }
 
 .contact {
@@ -116,17 +116,22 @@ a:hover {
 
 .name {
   float: left;
-  margin-left: 15px;
 }
 
 .top-nav {
   float: right;
-  margin-right: 15px;
+  padding: 15px 15px;
+}
+
+.portfolio {
+  background-color: #fff;
 }
 
 /*Media Queries*/
 
 @media (min-width: 768px) {
+
+
 
   .nav li {
     display: inline;
@@ -151,7 +156,7 @@ a:hover {
     display: inline;
   }
 
-  .portfolio {
+  .portfolio0 {
     float: left;
     max-width: 50%;
     padding: 25px 0;
@@ -186,6 +191,8 @@ a:hover {
     max-width: 50%;
     padding: 25px 0;
   }
+
+
 }
 
 @media (min-width: 1024px) {
