@@ -1,3 +1,7 @@
+/* Normalize.css  */
+
+@import 'normalize.css';
+
 /*Base styles*/
 
 * {
@@ -106,9 +110,9 @@ footer {
   background-color: #f2f2f2;
   justify-content: space-around;
   margin: 0 auto;
-  padding: 15px 15px;
-  max-height: 75px;
+  padding: 40px 15px;
   width: 100%;
+  clear: both;
 }
 
 .contact {
@@ -121,7 +125,6 @@ footer {
 
 .top-nav {
   float: right;
-  padding: 15px 15px;
 }
 
 .portfolio {
@@ -194,7 +197,7 @@ footer {
   }
 
   .wrap {
-    min-height: calc(100vh-75px);
+    min-height: calc(100vh - 75px);
   }
 
 }
@@ -227,45 +230,45 @@ footer {
   .portfolio0 {
     float: left;
     max-width: 30%;
-    padding: 0 auto;
+    padding: 0;
   }
 
   .portfolio1 {
     float: right;
     max-width: 30%;
-    padding: 0 auto;
+    padding: 0;
   }
 
   .portfolio2 {
     float: left;
     max-width: 30%;
-    padding: 0 auto;
+    padding: 0;
   }
 
   .portfolio3 {
     float: right;
     max-width: 30%;
-    padding: 0 auto;
+    padding: 0;
   }
 
   .portfolio4 {
     float: left;
     max-width: 30%;
-    padding: 0 auto;
+    padding: 0;
   }
 
   .portfolio5 {
     float: right;
     max-width: 30%;
-    padding: 0 auto;
+    padding: 0;
   }
 
   .portfolio-title {
     text-align: center;
-    padding: 10px;
+    padding: 0;
   }
 
   .wrap {
-    min-height: calc(100vh-75px);
+    min-height: calc(100vh - 75px);
   }
 }
