@@ -136,7 +136,6 @@ footer {
 @media (min-width: 768px) {
 
 
-
   .nav li {
     display: inline;
     margin: 0 auto;
@@ -156,50 +155,39 @@ footer {
     padding: 15px 10px 60px;
   }
 
-  .portfolio-photo {
-    display: inline;
-  }
-
-  .portfolio0 {
-    float: left;
-    max-width: 50%;
-    padding: 25px 0;
-  }
-
-  .portfolio1 {
-    float: right;
-    max-width: 50%;
-    padding: 25px 0;
-  }
-
-  .portfolio2 {
-    float: left;
-    max-width: 50%;
-    padding: 25px 0;
-  }
-
-  .portfolio3 {
-    float: right;
-    max-width: 50%;
-    padding: 25px 0;
-  }
-
-  .portfolio4 {
-    float: left;
-    max-width: 50%;
-    padding: 25px 0;
-  }
-
-  .portfolio5 {
-    float: right;
-    max-width: 50%;
-    padding: 25px 0;
-  }
-
   .wrap {
     min-height: calc(100vh - 75px);
   }
 
+  .portfolio-0{
+    float: right;
+    max-width: 50%;
+  }
+
+  .portfolio-1{
+    float: left;
+    max-width: 50%;
+  }
+
+  .portfolio-2{
+    float: right;
+    max-width: 50%;
+  }
+
+  .portfolio-3{
+    float: left;
+    max-width: 50%;
+  }
+
+  .portfolio-4{
+    float: right;
+    max-width: 50%;
+  }
+
+  .portfolio-5{
+    float: left;
+    max-width: 50%;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -221,51 +209,6 @@ footer {
 
   .intro {
     padding: 15px 10px 200px;
-  }
-
-  .portfolio-photo {
-    display: inline;
-  }
-
-  .portfolio0 {
-    float: left;
-    max-width: 30%;
-    padding: 0;
-  }
-
-  .portfolio1 {
-    float: right;
-    max-width: 30%;
-    padding: 0;
-  }
-
-  .portfolio2 {
-    float: left;
-    max-width: 30%;
-    padding: 0;
-  }
-
-  .portfolio3 {
-    float: right;
-    max-width: 30%;
-    padding: 0;
-  }
-
-  .portfolio4 {
-    float: left;
-    max-width: 30%;
-    padding: 0;
-  }
-
-  .portfolio5 {
-    float: right;
-    max-width: 30%;
-    padding: 0;
-  }
-
-  .portfolio-title {
-    text-align: center;
-    padding: 0;
   }
 
   .wrap {
