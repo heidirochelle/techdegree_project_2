@@ -27,7 +27,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 1.7em;
   font-family: 'OpenSans', sans-serif;
   text-align: center;
 }
@@ -35,6 +35,7 @@ h2 {
 h3 {
   font-size: 1.6em;
   font-family: 'Heebo', sans-serif;
+  text-align: center;
 }
 
 p {
@@ -68,6 +69,10 @@ a:hover {
 .main-header,
 footer {
   text-align: center;
+}
+
+.bottom-nav {
+  display: none;
 }
 
 .student-name {
@@ -135,6 +140,10 @@ footer {
   margin: 25px 15px 35px;
 }
 
+.top {
+  background-color: #f2f2f2;
+}
+
 @portfolio {
   background-color: #fff;
 }
@@ -144,22 +153,35 @@ footer {
 @media (min-width: 768px) {
 
   .student-name {
+    margin: 20px 0;
     font-size: 2.5em;
   }
 
-  .nav li {
-    display: inline;
-    margin: 0 auto;
-    padding: 0 10px;
+  .student-name,
+  .main-header,
+  .main-nav li {
+    display: inline-block;
     background-color: #f2f2f2;
+    margin-right: 60px;
   }
+
+  .nav {
+    margin: 25px 0;
+    padding: 0;
+  }
+
+  .nav li {
+    padding: 0;
+  }
+
   .profile-img {
     float: right;
     padding: 0 15px;
   }
 
   .intro-paragraph {
-    margin: 0 10px;
+    margin: 10px 10px;
+    padding: 10px 0;
   }
 
   .intro {
@@ -180,14 +202,54 @@ footer {
   .portfolio-photo {
     margin: 0 0 15px;
   }
+
+  .top-nav {
+    display:none;
+  }
+
+  .bottom-nav {
+      float: right;
+      display: inline-block;
+      background-color: #f2f2f2;
+      list-style-type: none;
+      margin: 0;
+    }
+
+    .bottom-nav li {
+      display: inline-block;
+      padding: 0;
+      margin: 0;
+      margin-right: 30px;
+    }
+
 }
 
 @media (min-width: 1024px) {
-  .nav li {
-    display: inline;
-    margin: 0 auto;
-    padding: 0 10px;
+
+  .student-name,
+  .main-header,
+  .main-nav li {
+    display: inline-block;
     background-color: #f2f2f2;
+    margin-right: 30px;
+  }
+
+  .student-name {
+    float: left;
+    margin-left: 25px;
+  }
+
+  .main-nav {
+    float: right;
+  }
+
+  .nav {
+    margin:  25px 0;
+    padding: 0;
+  }
+
+  .nav li {
+    padding: 0;
   }
 
   .profile-img {
@@ -218,12 +280,24 @@ footer {
     padding: 25px;
   }
 
-  .student-name {
-    float: left;
-    font-size: 2.8em;
+
+
+  .top-nav {
+    display:none;
   }
 
-  .main-nav li {
-    float: right;
-  }
+  .bottom-nav {
+      float: right;
+      display: inline-block;
+      background-color: #f2f2f2;
+      list-style-type: none;
+      margin: 0;
+    }
+
+    .bottom-nav li {
+      display: inline-block;
+      padding: 0;
+      margin: 0;
+      margin-right: 30px;
+    }
 }
