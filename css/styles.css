@@ -38,9 +38,9 @@ h3 {
 }
 
 p {
-  font-size: 1.8em;
+  font-size: 1.5em;
   font-family: 'OpenSans', sans-serif;
-  margin: 0 auto;
+  margin: 0 0 15px;
 }
 
 /*Psuedo Classes*/
@@ -70,6 +70,9 @@ footer {
   text-align: center;
 }
 
+.student-name {
+  font-size: 2.3em;
+}
 
 .nav {
   text-transform: uppercase;
@@ -117,6 +120,7 @@ footer {
 
 .contact {
   background-color: #f2f2f2;
+  margin: 0 0 50px;
 }
 
 .name {
@@ -127,7 +131,11 @@ footer {
   float: right;
 }
 
-.portfolio {
+.bottom {
+  margin: 25px 15px 35px;
+}
+
+@portfolio {
   background-color: #fff;
 }
 
@@ -135,6 +143,9 @@ footer {
 
 @media (min-width: 768px) {
 
+  .student-name {
+    font-size: 2.5em;
+  }
 
   .nav li {
     display: inline;
@@ -159,34 +170,15 @@ footer {
     min-height: calc(100vh - 75px);
   }
 
-  .portfolio-0{
-    float: right;
-    max-width: 50%;
+  .portfolio-imgs {
+    display: inline-block;
+    width: 100%;
+    columns: 2;
+    margin: 0 0 15px;
   }
 
-  .portfolio-1{
-    float: left;
-    max-width: 50%;
-  }
-
-  .portfolio-2{
-    float: right;
-    max-width: 50%;
-  }
-
-  .portfolio-3{
-    float: left;
-    max-width: 50%;
-  }
-
-  .portfolio-4{
-    float: right;
-    max-width: 50%;
-  }
-
-  .portfolio-5{
-    float: left;
-    max-width: 50%;
+  .portfolio-photo {
+    margin: 0 0 15px;
   }
 }
 
@@ -213,5 +205,25 @@ footer {
 
   .wrap {
     min-height: calc(100vh - 75px);
+  }
+
+  .portfolio-imgs {
+    display: inline-block;
+    width: 100%;
+    columns: 3;
+    margin: 0 0 15px;
+  }
+
+  .main-header {
+    padding: 25px;
+  }
+
+  .student-name {
+    float: left;
+    font-size: 2.8em;
+  }
+
+  .main-nav li {
+    float: right;
   }
 }
