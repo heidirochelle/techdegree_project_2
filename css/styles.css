@@ -162,7 +162,7 @@ footer {
   .main-nav li {
     display: inline-block;
     background-color: #f2f2f2;
-    margin-right: 60px;
+    margin-right: 70px;
   }
 
   .nav {
@@ -189,7 +189,7 @@ footer {
   }
 
   .wrap {
-    min-height: calc(100vh - 75px);
+    min-height: 100vh;
   }
 
   .portfolio-imgs {
@@ -197,6 +197,7 @@ footer {
     width: 100%;
     columns: 2;
     margin: 0 0 15px;
+    padding: 0 15px 15px 45px;
   }
 
   .portfolio-photo {
@@ -219,7 +220,7 @@ footer {
       display: inline-block;
       padding: 0;
       margin: 0;
-      margin-right: 30px;
+      margin-right: 50px;
     }
 
 }
@@ -231,7 +232,7 @@ footer {
   .main-nav li {
     display: inline-block;
     background-color: #f2f2f2;
-    margin-right: 30px;
+    margin-right: 70px;
   }
 
   .student-name {
@@ -280,8 +281,6 @@ footer {
     padding: 25px;
   }
 
-
-
   .top-nav {
     display:none;
   }
@@ -298,6 +297,6 @@ footer {
       display: inline-block;
       padding: 0;
       margin: 0;
-      margin-right: 30px;
+      margin-right: 50px;
     }
 }
