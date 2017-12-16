@@ -2,6 +2,12 @@
 
 @import 'normalize.css';
 
+/* Web Fonts */
+@font-face {
+  font-family: 'BerkshireSwash';
+  src: url("https://fonts.googleapis.com/css?family=Berkshire+Swash");
+}
+
 /*Base styles*/
 
 * {
@@ -19,7 +25,6 @@ body {
   margin: 0;
 }
 
-/*font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif*/
 h1 {
   font-size: 3.5em;
   font-family: 'Heebo', sans-serif;
@@ -47,12 +52,12 @@ p {
 /*Psuedo Classes*/
 
 a:link {
- color: #000; /*unvisited link*/
+ color: #ff9966; /*unvisited link*/
  text-decoration: none;
 }
 
 a:visited {
-  color: #000; /*visited link*/
+  color: #ff9966; /*visited link*/
   text-decoration: none;
 }
 
@@ -77,6 +82,7 @@ footer {
 
 .student-name {
   font-size: 2.3em;
+  color: #4d4d4d;
 }
 
 .nav {
@@ -107,6 +113,10 @@ footer {
   width: 93%;
 }
 
+.portfolio-imgs {
+  padding: 0 15px 15px 45px;
+  margin: 10px 0 15px;
+}
 
 footer,
 .name {
@@ -128,8 +138,17 @@ footer {
   margin: 0 0 50px;
 }
 
+.contact-title {
+  color: #ffc34d;
+}
+
+.contact-paragraph {
+  color: #4d4d4d;
+}
+
 .name {
   float: left;
+  color: #4d4d4d;
 }
 
 .top-nav {
@@ -144,8 +163,28 @@ footer {
   background-color: #f2f2f2;
 }
 
+.portfolio-title {
+  background-color: #ffdd99;
+  margin: 10px 115px 10px;
+  padding: 10px;
+}
+
 @portfolio {
   background-color: #fff;
+}
+
+.about-section {
+  padding: 25px 50px 25px;
+  background-color: #a6a6a6;
+  font-size: .9;
+  font-family: 'Berkshire Swash', cursive, sans-serif;
+  color: #fff;
+}
+
+.about-title {
+  background-color: #ffdd99;
+  margin: 10px 115px 10px;
+  padding: 10px;
 }
 
 /*Media Queries*/
@@ -196,7 +235,7 @@ footer {
     display: inline-block;
     width: 100%;
     columns: 2;
-    margin: 0 0 15px;
+    margin: 25px 0 15px;
     padding: 0 15px 15px 45px;
   }
 
@@ -221,6 +260,20 @@ footer {
       padding: 0;
       margin: 0;
       margin-right: 50px;
+    }
+
+    .about-section {
+      padding: 50px 300px 50px;
+      background-color: #a6a6a6;
+      font-size: .9;
+      color: #fff;
+    }
+
+    .about-title,
+    .portfolio-title {
+      background-color: #ffdd99;
+      margin: 10px 300px 10px;
+      padding: 15px;
     }
 
 }
@@ -255,11 +308,7 @@ footer {
 
   .profile-img {
     float: right;
-    padding: 0 15px;
-  }
-
-  .intro-paragraph {
-    margin: 0 10px;
+    padding: 0 15px 0 100px;
   }
 
   .intro {
@@ -274,7 +323,7 @@ footer {
     display: inline-block;
     width: 100%;
     columns: 3;
-    margin: 0 0 15px;
+    margin: 25px 0 15px;
   }
 
   .main-header {
@@ -299,4 +348,24 @@ footer {
       margin: 0;
       margin-right: 50px;
     }
+
+    .about-section {
+      padding: 50px 300px 50px;
+      background-color: #a6a6a6;
+      font-size: .9;
+      color: #fff;
+    }
+
+    .about-title,
+    .portfolio-title {
+      background-color: #ffdd99;
+      margin: 15px 600px 15px;
+      padding: 10px;
+    }
+
+    .intro-paragraph {
+      margin: 10px 10px;
+      padding: 10px 100px;
+    }
+
 }
