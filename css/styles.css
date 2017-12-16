@@ -44,9 +44,9 @@ h3 {
 }
 
 p {
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-family: 'OpenSans', sans-serif;
-  margin: 0 0 15px;
+  margin: 0 10px 15px;
 }
 
 /*Psuedo Classes*/
@@ -83,6 +83,7 @@ footer {
 .student-name {
   font-size: 2.3em;
   color: #4d4d4d;
+  padding: 10px;
 }
 
 .nav {
@@ -187,7 +188,19 @@ footer {
   padding: 10px;
 }
 
+.intro-paragraph {
+  padding: 0 20px;
+}
+
 /*Media Queries*/
+
+@media (max-width: 308px) {
+  .about-title,
+  .portfolio-title {
+    margin: 15px 300px 15px;
+    padding: 10px;
+  }
+}
 
 @media (min-width: 768px) {
 
@@ -201,7 +214,6 @@ footer {
   .main-nav li {
     display: inline-block;
     background-color: #f2f2f2;
-    margin-right: 70px;
   }
 
   .nav {
@@ -211,6 +223,7 @@ footer {
 
   .nav li {
     padding: 0;
+    margin-right: 50px;
   }
 
   .profile-img {
@@ -221,6 +234,7 @@ footer {
   .intro-paragraph {
     margin: 10px 10px;
     padding: 10px 0;
+    font-size:
   }
 
   .intro {
@@ -235,8 +249,8 @@ footer {
     display: inline-block;
     width: 100%;
     columns: 2;
-    margin: 25px 0 15px;
-    padding: 0 15px 15px 45px;
+    margin: 5px 0 15px;
+    padding: 0 10px 0 10px;
   }
 
   .portfolio-photo {
@@ -263,7 +277,7 @@ footer {
     }
 
     .about-section {
-      padding: 50px 300px 50px;
+      padding: 50px 150px 50px;
       background-color: #a6a6a6;
       font-size: .9;
       color: #fff;
@@ -272,11 +286,19 @@ footer {
     .about-title,
     .portfolio-title {
       background-color: #ffdd99;
-      margin: 10px 300px 10px;
+      margin: 15px 300px 15px;
       padding: 15px;
     }
 
 }
+
+@media (min-width: 1000px) {
+  .about-title,
+  .portfolio-title {
+    background-color: #ffdd99;
+    margin: 15px 450px 15px;
+    padding: 10px;
+  }
 
 @media (min-width: 1024px) {
 
@@ -285,8 +307,7 @@ footer {
   .main-nav li {
     display: inline-block;
     background-color: #f2f2f2;
-    margin-right: 70px;
-  }
+    }
 
   .student-name {
     float: left;
@@ -298,7 +319,7 @@ footer {
   }
 
   .nav {
-    margin:  25px 0;
+    margin: 0 25px 0;
     padding: 0;
   }
 
@@ -316,14 +337,22 @@ footer {
   }
 
   .wrap {
-    min-height: calc(100vh - 75px);
+    min-height: 100vh;
   }
 
   .portfolio-imgs {
     display: inline-block;
-    width: 100%;
+    width: 110;
     columns: 3;
     margin: 25px 0 15px;
+  }
+
+  /* p {
+    margin: 0;
+  } */
+
+  .portfolio-photo {
+    margin-top: 10px;
   }
 
   .main-header {
@@ -359,7 +388,7 @@ footer {
     .about-title,
     .portfolio-title {
       background-color: #ffdd99;
-      margin: 15px 600px 15px;
+      margin: 15px 300px 15px;
       padding: 10px;
     }
 
@@ -368,4 +397,13 @@ footer {
       padding: 10px 100px;
     }
 
-}
+  }
+
+    @media (min-width: 1400px) {
+      .about-title,
+      .portfolio-title {
+        background-color: #ffdd99;
+        margin: 15px 600px 15px;
+        padding: 10px;
+      }
+    }
