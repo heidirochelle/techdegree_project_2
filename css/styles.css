@@ -32,7 +32,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.7em;
+  font-size: 1.5em;
   font-family: 'OpenSans', sans-serif;
   text-align: center;
 }
@@ -44,7 +44,7 @@ h3 {
 }
 
 p {
-  font-size: 1.2em;
+  font-size: 1em;
   font-family: 'OpenSans', sans-serif;
   margin: 0 10px 15px;
 }
@@ -70,7 +70,7 @@ a:hover {
 /*Main Styles*/
 
 
-.primary-content,
+.intro,
 .main-header,
 footer {
   text-align: center;
@@ -170,14 +170,14 @@ footer {
   padding: 10px;
 }
 
-@portfolio {
+#portfolio {
   background-color: #fff;
 }
 
 .about-section {
   padding: 25px 50px 25px;
   background-color: #a6a6a6;
-  font-size: .9;
+  font-size: .9em;
   font-family: 'Berkshire Swash', cursive, sans-serif;
   color: #fff;
 }
@@ -229,12 +229,13 @@ footer {
   .profile-img {
     float: right;
     padding: 0 15px;
+    max-width: 40%;
   }
 
   .intro-paragraph {
     margin: 10px 10px;
     padding: 10px 0;
-    font-size:
+    font-size: 1.3em;
   }
 
   .intro {
@@ -279,7 +280,7 @@ footer {
     .about-section {
       padding: 50px 150px 50px;
       background-color: #a6a6a6;
-      font-size: .9;
+      font-size: 1.3em;
       color: #fff;
     }
 
@@ -289,6 +290,14 @@ footer {
       margin: 15px 300px 15px;
       padding: 15px;
     }
+}
+
+@media (min-width: 892px) {
+  .profile-img {
+    float: right;
+    padding: 0 15px;
+    max-width: 30%;
+  }
 
 }
 
@@ -296,9 +305,16 @@ footer {
   .about-title,
   .portfolio-title {
     background-color: #ffdd99;
-    margin: 15px 450px 15px;
+    margin: 15px 400px 15px;
     padding: 10px;
   }
+
+  .profile-img {
+    float: right;
+    padding: 0 15px;
+    max-width: 30%;
+  }
+}
 
 @media (min-width: 1024px) {
 
@@ -330,6 +346,7 @@ footer {
   .profile-img {
     float: right;
     padding: 0 15px 0 100px;
+    max-width: 50%;
   }
 
   .intro {
@@ -342,9 +359,9 @@ footer {
 
   .portfolio-imgs {
     display: inline-block;
-    width: 110;
+    width: 100%;
     columns: 3;
-    margin: 25px 0 15px;
+    margin: 25px 0 15px 10px;
   }
 
   /* p {
@@ -381,7 +398,7 @@ footer {
     .about-section {
       padding: 50px 300px 50px;
       background-color: #a6a6a6;
-      font-size: .9;
+      font-size: .9em;
       color: #fff;
     }
 
@@ -398,6 +415,27 @@ footer {
     }
 
   }
+
+  @media (min-width: 1080px) {
+      .about-title,
+      .portfolio-title {
+        background-color: #ffdd99;
+        margin: 15px 350px 15px;
+        padding: 10px;
+      }
+
+  }
+
+  @media (min-width: 1200px) {
+      .about-title,
+      .portfolio-title {
+        background-color: #ffdd99;
+        margin: 15px 350px 15px;
+        padding: 10px;
+      }
+
+  }
+
 
     @media (min-width: 1400px) {
       .about-title,
