@@ -47,6 +47,7 @@ p {
   font-size: 1em;
   font-family: 'OpenSans', sans-serif;
   margin: 0 10px 15px;
+  text-align: center;
 }
 
 /*Psuedo Classes*/
